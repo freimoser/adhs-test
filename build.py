@@ -67,9 +67,9 @@ def page(path, title, desc, h1, lead, body, faqs, tool=False, extra_ld=None):
 </body></html>
 '''
 
-TOOL = '''<div class="hook"><p><strong>So geht's:</strong> ① den offiziellen ASRS-Kurztest und eigene Fragen ausfüllen (ca. 10 Minuten) → ② beliebig viele Einladungslinks an Menschen schicken, die dich gut kennen → ③ deren Antwortlinks öffnen und sehen, wo ihr euch einig seid. Kostenlos, ohne Anmeldung, ohne Server.</p></div>
+TOOL = '''<div class="hook"><p><strong>So geht's:</strong> ① den offiziellen ASRS-Kurztest und eigene Fragen beantworten, eine Frage nach der anderen (ca. 10 Minuten) → ② beliebig viele Einladungslinks an Menschen schicken, die dich gut kennen → ③ deren Antwortlinks öffnen und sehen, wo ihr euch einig seid. Kostenlos, ohne Anmeldung, ohne Server.</p></div>
 <noscript><p class="warn">Der Check braucht JavaScript. Es werden trotzdem keine Daten übertragen.</p></noscript>
-<div id="app" aria-live="polite"></div>'''
+<div id="app"></div>'''
 
 SRC = '''<h2>Quellen</h2><ul class="src">
 <li>Deutsche Gesellschaft für Kinder- und Jugendpsychiatrie u. a.: S3-Leitlinie „ADHS bei Kindern, Jugendlichen und Erwachsenen“, AWMF-Register-Nr. 028-045, Stand 2017. <a href="https://register.awmf.org/de/leitlinien/detail/028-045">register.awmf.org</a></li>
