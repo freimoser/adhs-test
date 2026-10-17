@@ -66,7 +66,7 @@ function show(pos,dir){var c=WZ;if(!c)return;
 function pick(k){var c=WZ;if(!c||c.lock)return;var st=c.steps[c.pos];if(st.t!=="q")return;
  c.setVal(st,k);$("#wzc").querySelectorAll(".ans").forEach(function(b){b.setAttribute("aria-checked",+b.getAttribute("data-v")===k?"true":"false")});
  var nx=$("#wznext");if(nx)nx.disabled=false;c.lock=true;var p=c.pos;
- setTimeout(function(){if(WZ!==c)return;c.lock=false;if(c.pos===p)show(p+1,1)},250)}
+ setTimeout(function(){if(WZ!==c)return;c.lock=false;if(c.pos===p){var ae=document.activeElement;if(ae&&ae.blur&&ae.classList&&ae.classList.contains("ans"))ae.blur();show(p+1,1)}},250)}
 function back(){var c=WZ;if(!c||c.pos<=0)return;c.lock=false;show(c.pos-1,-1)}
 document.addEventListener("keydown",function(e){var c=WZ;if(!c||!$("#wz")||e.ctrlKey||e.metaKey||e.altKey)return;var tg=e.target.tagName;if(tg==="INPUT"||tg==="TEXTAREA"||tg==="SELECT")return;
  var st=c.steps[c.pos];if(!st)return;
