@@ -67,7 +67,7 @@ def page(path, title, desc, h1, lead, body, faqs, tool=False, extra_ld=None):
 </body></html>
 '''
 
-TOOL = '''<div class="hook"><p><strong>So geht's:</strong> ① Kurztest der WHO und eigene Fragen ausfüllen (ca. 10 Minuten) → ② beliebig viele Einladungslinks an Menschen schicken, die dich gut kennen → ③ deren Antwortlinks öffnen und sehen, wo ihr euch einig seid. Kostenlos, ohne Anmeldung, ohne Server.</p></div>
+TOOL = '''<div class="hook"><p><strong>So geht's:</strong> ① den offiziellen ASRS-Kurztest und eigene Fragen ausfüllen (ca. 10 Minuten) → ② beliebig viele Einladungslinks an Menschen schicken, die dich gut kennen → ③ deren Antwortlinks öffnen und sehen, wo ihr euch einig seid. Kostenlos, ohne Anmeldung, ohne Server.</p></div>
 <noscript><p class="warn">Der Check braucht JavaScript. Es werden trotzdem keine Daten übertragen.</p></noscript>
 <div id="app" aria-live="polite"></div>'''
 
