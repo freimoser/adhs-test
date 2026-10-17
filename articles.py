@@ -53,7 +53,7 @@ PAGES.append(("fremdeinschaetzung-angehoerige/", page("fremdeinschaetzung-angeho
    ("Sieht die Person, was ich geantwortet habe?", "Ja, sobald du ihr deinen Antwortlink schickst. Vorher bleibt alles in deinem Browser.")])))
 
 PAGES.append(("adhs-diagnose-ablauf/", page("adhs-diagnose-ablauf/", "ADHS-Diagnose bei Erwachsenen – wie läuft die Abklärung ab?",
-  "Wie läuft eine ADHS-Diagnose bei Erwachsenen ab? Anlaufstellen, Gespräch, Fragebögen wie CAARS oder HASE, Fremdanamnese – und wie Sie sich vorbereiten.",
+  "Wie läuft eine ADHS-Diagnose bei Erwachsenen ab? Anlaufstellen, Gespräch, Fragebögen wie CAARS oder HASE, Fremdanamnese – und wie du dich vorbereitest.",
   "Wie läuft eine ADHS-Diagnose bei Erwachsenen ab?",
   "Vom ersten Verdacht bis zur Diagnose ist es oft ein längerer Weg. Wer weiß, was kommt, kann sich gut vorbereiten.",
   '''<h2>1. Erste Anlaufstelle</h2>
@@ -64,16 +64,16 @@ PAGES.append(("adhs-diagnose-ablauf/", page("adhs-diagnose-ablauf/", "ADHS-Diagn
 <p>Ergänzend werden standardisierte Fragebögen eingesetzt, in Deutschland zum Beispiel CAARS oder die Bögen aus dem HASE-Verfahren. Diese Verfahren sind urheberrechtlich geschützt und gehören in die Praxis – deshalb gibt es sie hier nicht. Häufig wird auch eine Bezugsperson befragt oder um einen eigenen Bogen gebeten. Fragebögen allein reichen laut Leitlinie nicht für eine Diagnose aus.</p>
 <h2>4. Ausschluss anderer Ursachen</h2>
 <p>Konzentrationsprobleme und Unruhe können viele Gründe haben. Deshalb wird geprüft, ob etwa Depression, Angststörung, Schlafmangel, Sucht oder körperliche Erkrankungen die Beschwerden besser erklären – oder zusätzlich vorliegen.</p>
-<h2>So bereiten Sie sich vor</h2>
-<ul><li>Alte Grundschulzeugnisse mit Verhaltensbeurteilungen heraussuchen.</li><li>Konkrete Beispiele aus Arbeit, Beziehung und Alltag notieren.</li><li>Eltern oder Geschwister fragen, wie Sie als Kind waren.</li><li>Den Ausdruck aus dem <a href="../">ADHS-Check zu dritt</a> mitnehmen – mit WHO-Kurztest und den Sichtweisen Ihres Umfelds.</li></ul>''' + SRC,
+<h2>So bereitest du dich vor</h2>
+<ul><li>Alte Grundschulzeugnisse mit Verhaltensbeurteilungen heraussuchen.</li><li>Konkrete Beispiele aus Arbeit, Beziehung und Alltag notieren.</li><li>Eltern oder Geschwister fragen, wie du als Kind warst.</li><li>Den Ausdruck aus dem <a href="../">ADHS-Check zu dritt</a> mitnehmen – mit WHO-Kurztest und den Sichtweisen deines Umfelds.</li></ul>''' + SRC,
   [("Wer darf ADHS bei Erwachsenen diagnostizieren?", "Fachärztinnen und Fachärzte für Psychiatrie und Psychotherapie, Nervenärzte sowie psychologische und ärztliche Psychotherapeuten."),
    ("Reicht ein Online-Test für die Diagnose?", "Nein. Online-Tests können ein Gespräch vorbereiten, aber keine Diagnose stellen.")])))
 
 PAGES.append(("datenschutz/", page("datenschutz/", "Datenschutz – ADHS-Check", "Datenschutzhinweise zum ADHS-Check: keine Server-Speicherung, kein Tracking, Daten nur im Browser.",
-  "Datenschutz", "Kurz gesagt: Ihre Antworten verlassen Ihr Gerät nur, wenn Sie selbst einen Link verschicken.",
+  "Datenschutz", "Kurz gesagt: Deine Antworten verlassen dein Gerät nur, wenn du selbst einen Link verschickst.",
   '''<h2>Verantwortlicher</h2><p>Thomas Freimoser, Kontaktdaten im <a href="https://freimoser.github.io/freimoser.de/impressum/">Impressum</a>.</p>
 <h2>Hosting</h2><p>Die Seiten werden über GitHub Pages (GitHub Inc., USA) ausgeliefert. Beim Aufruf verarbeitet GitHub technisch notwendige Verbindungsdaten wie die IP-Adresse, um die Seite auszuliefern und Missbrauch abzuwehren. Hinweise von GitHub: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutzerklärung</a>.</p>
-<h2>Ihre Antworten</h2><p>Antworten, Einladungen und Einschätzungen anderer werden ausschließlich im lokalen Speicher (localStorage) Ihres Browsers abgelegt. Es gibt keinen Server, keine Datenbank und kein Konto. Über „Alles löschen“ im Check oder durch Löschen der Websitedaten im Browser entfernen Sie alles.</p>
-<h2>Einladungs- und Antwortlinks</h2><p>Einladungslinks enthalten eine Zufalls-ID, die Fragen-Version und den eingetragenen Namen. Antwortlinks enthalten die Antworten der Vertrauensperson; sie stehen hinter dem #-Zeichen, das Browser nicht an den Server übertragen. Wenn Sie einen Link per Messenger oder E-Mail verschicken, gelten die Datenschutzbedingungen dieses Dienstes. Die Links enthalten Gesundheitsdaten (Art. 9 DSGVO) – verschicken Sie sie nur an die gemeinte Person und nutzen Sie bei Bedarf die Passwort-Verschlüsselung (AES-GCM, Schlüssel per PBKDF2 aus dem Passwort abgeleitet, alles lokal im Browser).</p>
+<h2>Deine Antworten</h2><p>Antworten, Einladungen und Einschätzungen anderer werden ausschließlich im lokalen Speicher (localStorage) deines Browsers abgelegt. Es gibt keinen Server, keine Datenbank und kein Konto. Über „Alles löschen“ im Check oder durch Löschen der Websitedaten im Browser entfernst du alles.</p>
+<h2>Einladungs- und Antwortlinks</h2><p>Einladungslinks enthalten eine Zufalls-ID, die Fragen-Version und den eingetragenen Namen. Antwortlinks enthalten die Antworten der Vertrauensperson; sie stehen hinter dem #-Zeichen, das Browser nicht an den Server übertragen. Wenn du einen Link per Messenger oder E-Mail verschickst, gelten die Datenschutzbedingungen dieses Dienstes. Die Links enthalten Gesundheitsdaten (Art. 9 DSGVO) – verschick sie nur an die gemeinte Person und nutze bei Bedarf die Passwort-Verschlüsselung (AES-GCM, Schlüssel per PBKDF2 aus dem Passwort abgeleitet, alles lokal im Browser).</p>
 <h2>Keine Analyse, keine Cookies</h2><p>Auf diesen Seiten gibt es kein Google Analytics, keine Werbung, keine Social-Media-Plugins und keine Cookies.</p>
-<h2>Ihre Rechte</h2><p>Sie haben die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung und Beschwerde bei einer Aufsichtsbehörde. Da wir keine Antworten speichern, können wir darüber auch keine Auskunft geben – sie liegen nur bei Ihnen.</p>''', [])))
+<h2>Deine Rechte</h2><p>Du hast die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung und Beschwerde bei einer Aufsichtsbehörde. Da wir keine Antworten speichern, können wir darüber auch keine Auskunft geben – sie liegen nur bei dir.</p>''', [])))

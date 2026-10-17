@@ -52,7 +52,7 @@ def page(path, title, desc, h1, lead, body, faqs, tool=False, extra_ld=None):
 <body>
 <header class="top noprint"><div class="wrap"><a class="brand" href="{P}"><img src="{P}favicon.svg" alt="" width="28" height="28">ADHS-Check</a><button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Menü öffnen"><span></span></button><nav class="main" id="mainNav" aria-label="Hauptmenü">{nav}</nav></div></header><script>(function(){{var b=document.getElementById("menuBtn"),n=document.getElementById("mainNav");if(!b)return;function s(o){{n.classList.toggle("open",o);b.setAttribute("aria-expanded",o?"true":"false");b.setAttribute("aria-label",o?"Menü schließen":"Menü öffnen")}}b.onclick=function(e){{e.stopPropagation();s(!n.classList.contains("open"))}};n.addEventListener("click",function(e){{if(e.target.closest("a"))s(false)}});document.addEventListener("click",function(e){{if(n.classList.contains("open")&&!n.contains(e.target))s(false)}});document.addEventListener("keydown",function(e){{if(e.key==="Escape"&&n.classList.contains("open")){{s(false);b.focus()}}}})}})();</script>
 <main class="wrap">
-<div class="mdr" role="note">ℹ️ {NOTE} Ihre Antworten bleiben in Ihrem Browser.</div>
+<div class="mdr" role="note">ℹ️ {NOTE} Deine Antworten bleiben in deinem Browser.</div>
 <h1>{h1}</h1>
 <p class="lead">{lead}</p>
 {tool_html}
