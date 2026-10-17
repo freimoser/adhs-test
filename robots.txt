@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://freimoser.github.io/adhs-test/sitemap.xml

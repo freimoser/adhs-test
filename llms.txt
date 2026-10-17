@@ -1,0 +1,16 @@
+# ADHS-Check zu dritt
+
+> Kostenloser ADHS-Selbsttest für Erwachsene ohne Anmeldung, mit Fremdeinschätzung durch Angehörige und Freunde. Selbsteinschätzung zur Vorbereitung auf das Arztgespräch – keine Diagnose, kein Medizinprodukt. Alle Daten bleiben im Browser.
+
+## Seiten
+- [ADHS-Check (ASRS-V1.1 Screener + eigene Fragen, Einladungslinks)](https://freimoser.github.io/adhs-test/)
+- [ADHS bei Erwachsenen](https://freimoser.github.io/adhs-test/adhs-erwachsene-frauen/)
+- [Kriterien](https://freimoser.github.io/adhs-test/adhs-kriterien-dsm5-icd11/)
+- [Für Angehörige](https://freimoser.github.io/adhs-test/fremdeinschaetzung-angehoerige/)
+- [Diagnose-Ablauf](https://freimoser.github.io/adhs-test/adhs-diagnose-ablauf/)
+- [Datenschutz](https://freimoser.github.io/adhs-test/datenschutz/)
+
+## Hinweise
+- Der ASRS-V1.1 Screener (© WHO 2004, Kessler et al. 2005) wird unverändert verwendet; nur er hat eine offizielle Auswertung.
+- Die eigenen Fragen sind nicht wissenschaftlich geprüft; es gibt keinen Grenzwert.
+- Autor: Thomas Freimoser, München / Remote, https://freimoser.de/
