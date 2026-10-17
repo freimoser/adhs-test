@@ -61,7 +61,7 @@ def page(path, title, desc, h1, lead, body, faqs, tool=False, extra_ld=None):
 {ABOUT}
 <footer class="noprint"><div class="wrap">
 <p class="cols"><a href="https://freimoser.github.io/freimoser.de/impressum/">Impressum</a><a href="{P}datenschutz/">Datenschutz</a><a href="https://freimoser.de/">Portfolio Thomas Freimoser</a></p>
-<p>{NOTE} ASRS-V1.1 Screener © World Health Organization 2004, Kessler et al. (Harvard Medical School / New York University). Eigene Fragen © Thomas Freimoser, nicht wissenschaftlich geprüft. Gebaut in München / Remote.</p>
+<p>{NOTE} ASRS-V1.1 Screener: © New York University and the President and Fellows of Harvard College. Kessler RC, Adler L, Ames M et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychological Medicine 2005; 35(2): 245–256. <a href="https://license.tov.med.nyu.edu/product/asrs6Qscreener">Lizenz (NYU)</a>. Historischer Hinweis: Das Originalformular nennt © World Health Organization 2004. Eigene Fragen © Thomas Freimoser, nicht wissenschaftlich geprüft. Gebaut in München / Remote.</p>
 </div></footer>
 {scripts}
 </body></html>
@@ -75,7 +75,7 @@ SRC = '''<h2>Quellen</h2><ul class="src">
 <li>Deutsche Gesellschaft für Kinder- und Jugendpsychiatrie u. a.: S3-Leitlinie „ADHS bei Kindern, Jugendlichen und Erwachsenen“, AWMF-Register-Nr. 028-045, Stand 2017. <a href="https://register.awmf.org/de/leitlinien/detail/028-045">register.awmf.org</a></li>
 <li>American Psychiatric Association: Diagnostic and Statistical Manual of Mental Disorders, 5. Auflage (DSM-5), 2013.</li>
 <li>Weltgesundheitsorganisation: ICD-11, 6A05 Attention deficit hyperactivity disorder. <a href="https://icd.who.int/browse/2024-01/mms/en#821852937">icd.who.int</a></li>
-<li>Kessler RC, Adler L, Ames M u. a.: The World Health Organization Adult ADHD Self-Report Scale (ASRS). Psychological Medicine 2005; 35(2): 245–256.</li>
+<li>Kessler RC, Adler L, Ames M et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychological Medicine 2005; 35(2): 245–256. ASRS-V1.1 Screener © New York University and the President and Fellows of Harvard College; <a href="https://license.tov.med.nyu.edu/product/asrs6Qscreener">Lizenzseite NYU</a>.</li>
 </ul>'''
 
 PAGES = []
@@ -125,7 +125,7 @@ open("llms.txt", "w").write(f"""# ADHS-Check zu dritt
 """ + "\n".join(f"- [{t}]({BASE}{p})" for p, t in [("", "ADHS-Check (ASRS-V1.1 Screener + eigene Fragen, Einladungslinks)")] + [(p, n) for p, n in NAV[1:]] + [("datenschutz/", "Datenschutz")]) + """
 
 ## Hinweise
-- Der ASRS-V1.1 Screener (© WHO 2004, Kessler et al. 2005) wird unverändert verwendet; nur er hat eine offizielle Auswertung.
+- Der ASRS-V1.1 Screener (© New York University and the President and Fellows of Harvard College; Kessler RC, Adler L, Ames M et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychological Medicine 2005; 35(2): 245–256; Lizenz: https://license.tov.med.nyu.edu/product/asrs6Qscreener) wird unverändert verwendet; nur er hat eine offizielle Auswertung.
 - Die eigenen Fragen sind nicht wissenschaftlich geprüft; es gibt keinen Grenzwert.
 - Autor: Thomas Freimoser, München / Remote, https://freimoser.de/
 """)

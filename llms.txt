@@ -11,6 +11,6 @@
 - [Datenschutz](https://freimoser.github.io/adhs-test/datenschutz/)
 
 ## Hinweise
-- Der ASRS-V1.1 Screener (© WHO 2004, Kessler et al. 2005) wird unverändert verwendet; nur er hat eine offizielle Auswertung.
+- Der ASRS-V1.1 Screener (© New York University and the President and Fellows of Harvard College; Kessler RC, Adler L, Ames M et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychological Medicine 2005; 35(2): 245–256; Lizenz: https://license.tov.med.nyu.edu/product/asrs6Qscreener) wird unverändert verwendet; nur er hat eine offizielle Auswertung.
 - Die eigenen Fragen sind nicht wissenschaftlich geprüft; es gibt keinen Grenzwert.
 - Autor: Thomas Freimoser, München / Remote, https://freimoser.de/

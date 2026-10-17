@@ -33,7 +33,7 @@ window.ADHS_Q = {
  ["L","Am Ende des Tages bin ich erschöpft davon, alles irgendwie zusammenzuhalten.","Die Person wirkt erschöpft davon, alles irgendwie zusammenzuhalten."]
  ]
 };
-/* ASRS-V1.1 Screener, offizielle deutsche Fassung (6Q_German_final, © World Health Organization 2004). Wortlaut unverändert. */
+/* ASRS-V1.1 Screener, offizielle deutsche Fassung (6Q_German_final, © New York University and the President and Fellows of Harvard College; Lizenz https://license.tov.med.nyu.edu/product/asrs6Qscreener; historisch: © WHO 2004). Wortlaut unverändert. */
 window.ASRS = {
  scale: ["Niemals","Selten","Manchmal","Oft","Sehr oft"],
  intro: "Markieren Sie das Kästchen, das am besten beschreibt, wie Sie sich in den letzten 6 Monaten gefühlt und sich benommen haben.",
